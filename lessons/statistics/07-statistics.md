@@ -86,14 +86,21 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Using the probabilities of 1/125 and 1/300 with a large number divisible by 300 and 125 such as 3000 ... we find that there would (3000/300) or (10) sets of identical twins and (3000/125) or (24) sets of fraternal twins. There are 2 options of identical twins - Boy Boy or Girl Girl. Fraternal Twins have 4 options - Boy Boy, Girl Girl, Boy Girl, Girl Boy.
+
+>> P(Twin Brothers) = (1/2 * 10 Sets Identical Twins) + (1/4 * 24 Sets Fraternal Twins) / 3000 = 11 / 3000 = .3667
+P(Identical Twins) = 1/300 = 0.33
+P(Twin Brothers|Identical Twins) = 1/2 * 10 Sets Identical Twins = 0.50
+P(Identical Twins | Elvis Twin Brother) = P(Twin Brothers|Identical Twins) * P(Identical Twins) / P(Twin Brothers)
+P(Identical Twins | Elvis Twin Brother) = (0.50) * (0.33) / .3667 = .45 = 45%
+
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> Frequentists statistics and Bayesian statistics are both methods of inferential statistics. The differences between the two come from how they interpret probability. Frequentists believe that only repeatable random events have probabilities. They do not think you can attach probabilities to any hypotheses or fixed but unknown points. Frequentists would only be able to make estimates about the population based on their sample and would not use a subjective prior probability. In contrast, Bayesian statistics do account for uncertainty by assigning probability distribution to a hypothesis. Their estimates incorporate uncertainties into their full posterior distribution rather than just stopping at the maximum likelihood points based on known sample data.
 
 ---
 
